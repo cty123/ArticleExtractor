@@ -1,0 +1,10 @@
+# Bazel
+/.venv
+/bazel-*
+
+# Python
+__pycache__
+/.pytest_cache
+
+# vscode
+.vscode
