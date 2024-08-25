@@ -7,13 +7,13 @@ py_library(
         exclude = ["*_test.py"],
     ),
     visibility = ["//visibility:public"],
-    deps = [requirement("readabilipy")],
+    deps = ["//src/extractor:lib"],
 )
 
 py_test(
-    name = "readability_extractor_test",
+    name = "markdown_composer_test",
     srcs = [
-        "readability_extractor_test.py",
+        "markdown_composer_test.py",
     ],
     deps = [
         ":lib",
