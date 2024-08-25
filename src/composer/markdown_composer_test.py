@@ -1,6 +1,5 @@
 import unittest
 from unittest.mock import Mock, MagicMock
-from src.client.telegraph_client import TelegraphClient
 from src.composer.markdown_composer import MarkdownComposer
 from src.extractor.readability_extractor import Document, ImageContent, ReadabilityExtractor, TextContent
 

@@ -12,7 +12,6 @@ class MarkdownComposer:
                     output += f"<p>{str(paragraph)}</p>"
 
             if isinstance(content_block, ImageContent):
-                output += f"<figure><p><img src={str(content_block.src)} alt={
-                    str(content_block.alt)}/></p></figure>"
+                output += f"<figure><p><img src={str(content_block.src)} alt={str(content_block.alt)}/></p></figure>"
 
         return output
